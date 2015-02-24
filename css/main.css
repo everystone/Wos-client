@@ -1,0 +1,9 @@
+.chat {
+  
+  height:100vh;
+}
+
+.chat textarea {
+  height:70vh;
+  width:100vh;
+}

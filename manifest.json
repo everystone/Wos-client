@@ -1,0 +1,15 @@
+{
+  "name": "WOS-CLient",
+  "description": "Wall of Spam Client",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts":["js/background.js", "js/angular.min.js"]
+    }
+  },
+  "icons": { "16": "duck.ico", "128": "duck.ico" },
+  "permissions": [
+          "http://eirik.pw:3100/"
+          ]
+}
